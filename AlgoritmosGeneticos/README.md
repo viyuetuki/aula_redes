@@ -80,7 +80,7 @@ cruzamento_ponto_simples
 mutacao_senha
 ```
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb">experimento A.06 - o caixeiro viajante.ipynb</a> - Este arquivo é referente à resolução do problema do caixeiro viajante, visto pela primeira vez na disciplina de Lógica Computacional como um problema NP difícil, ou seja, que não há um algoritmo totalmente eficaz para resolver, ao menos que todas as possibilidades fossem testadas. Aqui, foram apresentadas duas vias de resolução para comparação, portanto: busca por algoritmos genéticos; busca exaustiva testando todas as permutações.
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.06%20-%20o%20caixeiro%20viajante.ipynb">experimento A.06 - o caixeiro viajante.ipynb</a> - Este arquivo é referente à resolução do problema do caixeiro viajante, visto pela primeira vez na disciplina de Lógica Computacional como um problema NP difícil, ou seja, que não há um algoritmo totalmente eficaz para resolver, ao menos que todas as possibilidades fossem testadas. Aqui, foram apresentadas duas vias de resolução para comparação, portanto: busca por algoritmos genéticos; busca exaustiva testando todas as permutações.
 
 Funções que implementamos em <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/funcoes.py">funcoes.py</a>:</p>
 ```
@@ -96,7 +96,7 @@ mutacao_de_troca
 permutations da biblioteca itertools
 ```
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb">experimento A.07 - aplicando restricoes.ipynb</a> - Este arquivo é referente à resolução do problema da mochila (que também vimos em Lógica Computacional), em que além encontrarmos uma mochila com itens somando maior valor, devemos considerar a restrição de que ela não pode exceder 15 unidades massa, para não rasgar.
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.07%20-%20aplicando%20restricoes.ipynb">experimento A.07 - aplicando restricoes.ipynb</a> - Este arquivo é referente à resolução do problema da mochila (que também vimos em Lógica Computacional), em que além encontrarmos uma mochila com itens somando maior valor, devemos considerar a restrição de que ela não pode exceder 15 unidades massa, para não rasgar.
 
 Funções que implementamos em <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/funcoes.py">funcoes.py</a>:</p>
 ```
@@ -105,16 +105,25 @@ funcao_objetivo_mochila
 funcao_objetivo_pop_mochila
 ```
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb">experimento A.08 - usando o modulo DEAP.ipynb</a> - Este arquivo contém experimento de busca aleatória resolvido pelo módulo DEAP e a função eaSimple.</p>
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.08%20-%20usando%20o%20modulo%20DEAP.ipynb">experimento A.08 - usando o modulo DEAP.ipynb</a> - Este arquivo contém experimento de busca aleatória resolvido pelo módulo DEAP e a função eaSimple.</p>
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb">experimento A.09 - usando o modulo DEAP sem o eaSimple.ipynb</a> - Este arquivo contém experimento das caixas binárias resolvido pelo módulo DEAP e sem a função eaSimple.</p>
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.09%20-%20usando%20o%20modulo%20DEAP%20sem%20o%20eaSimple.ipynb">experimento A.09 - usando o modulo DEAP sem o eaSimple.ipynb</a> - Este arquivo contém experimento das caixas binárias resolvido pelo módulo DEAP e sem a função eaSimple.</p>
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb">experimento A.10 - caixas nao-binarias com DEAP.ipynb</a> - Este arquivo contém experimento das caixas não-binárias resolvido pelo módulo DEAP e com a função eaSimple.</p>
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.10%20-%20caixas%20nao-binarias%20com%20DEAP.ipynb">experimento A.10 - caixas nao-binarias com DEAP.ipynb</a> - Este arquivo contém experimento das caixas não-binárias resolvido pelo módulo DEAP e com a função eaSimple.</p>
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb">experimento A.11 - descobrindo a senha com DEAP.ipynb</a> - Este arquivo contém experimento de descobrir a senha resolvido pelo módulo DEAP e com a função eaSimple.</p>
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.11%20-%20descobrindo%20a%20senha%20com%20DEAP.ipynb">experimento A.11 - descobrindo a senha com DEAP.ipynb</a> - Este arquivo contém experimento de descobrir a senha resolvido pelo módulo DEAP e com a função eaSimple.</p>
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/funcoes.py">experimento GA.01 - senha de tamanho variavel</a> - </p>
-    
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20GA.01%20-%20senha%20de%20tamanho%20variavel.ipynb">experimento GA.01 - senha de tamanho variavel</a> - Este arquivo contempla a resolução do experimento da senha de tamanho variável, em que ele não é dado no momento da geração dela. Esse, inteiramente, foi sendo desenvolvido por mim, contando tanto com funções reaproveitadas quanto novas.</p>
+
+Funções que implementamos em <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/funcoes.py">funcoes.py</a>:</p>
+```
+individuo_senha_var
+populacao_inicial_senha_var
+cruzamento_ponto_simples_senha_var
+mutacao_tam_senha_var
+funcao_objetivo_senha_var
+funcao_objetivo_pop_senha_var
+```
     
 ---------------------
 <b> Arquivos .py</b>:
@@ -131,24 +140,26 @@ funcao_objetivo_pop_mochila
 <p style='text-align: justify'> 🗂 <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/Algumas%20coisas%20que%20valem%20a%20pena%20aprender%20ou%20relembrar.ipynb">Algumas coisas que valem a pena aprender ou relembrar.ipynb</a> - Este arquivo contém informações interessantes para serem aprendidas ao longo do curso sempre que desejado.</p>
     
 <details><summary><h3>Tópicos relembrados</h3></summary>
-    * <b> O módulo random</b>
-        * <b> Tenho uma lista e quero sortear um item</b>
-        * <b> Tenho uma lista e quero sortear n itens com reposição</b>
-        * <b> Tenho uma lista e quero sortear um item, mas a chance de sortear cada item não é igual</b>
-        * <b> Tenho uma lista e quero sortear n itens com reposição, mas a chance de sortear cada item não é igual</b>
-        * <b> Tenho uma lista e quero sortear n itens sem reposição</b>
-        * <b> Quero sortear um número inteiro dentro do intervalo [a,b]</b>
-        * <b> Quero sortear um número real dentro do intervalo[0,1[</b>
-        * <b> Quero sortear um número real dentro do intervalo [a,b]</b>
-        * <b> Quero sortear um número real a partir de uma distribuição normal (Gaussiana)</b>
-        * <b> Quero embaralhar uma lista de objetos</b>
-    * <b> O módulo itertools</b>
-        * <b> Quero fazer o produto cartesiano entre duas ou mais listas</b>
-        * <b> Quero fazer a permutação dos elementos de uma lista</b>
-    * <b> A função zip</b>
-    * <b> O objeto deque</b> 
-    * <b> Convertendo uma letra ou um símbolo em um número</b>
-    * <b> Funções parciais</b>
+    <ul>
+     <b> O módulo random</b>
+        <li> <b> Tenho uma lista e quero sortear um item</b></li>
+        <li> <b> Tenho uma lista e quero sortear n itens com reposição</b></li>
+        <li> <b> Tenho uma lista e quero sortear um item, mas a chance de sortear cada item não é igual</b></li>
+        <li> <b> Tenho uma lista e quero sortear n itens com reposição, mas a chance de sortear cada item não é igual</b></li>
+        <li> <b> Tenho uma lista e quero sortear n itens sem reposição</b></li>
+        <li> <b> Quero sortear um número inteiro dentro do intervalo [a,b]</b></li>
+        <li> <b> Quero sortear um número real dentro do intervalo[0,1[</b></li>
+        <li> <b> Quero sortear um número real dentro do intervalo [a,b]</b></li>
+        <li> <b> Quero sortear um número real a partir de uma distribuição normal (Gaussiana)</b></li>
+        <li> <b> Quero embaralhar uma lista de objetos</b></li>
+    <b> O módulo itertools</b>
+        <li> <b> Quero fazer o produto cartesiano entre duas ou mais listas</b></li>
+        <li> <b> Quero fazer a permutação dos elementos de uma lista</b></li>
+    <b> A função zip</b>
+    <b> O objeto deque</b>
+    <b> Convertendo uma letra ou um símbolo em um número</b>
+    <b> Funções parciais</b>
+    </ul></details>
     
 ---------------------
 <b> Explicação</b>:

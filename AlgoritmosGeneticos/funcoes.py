@@ -43,6 +43,8 @@ def cria_cidades(n):
 
     for i in range(n):
         cidades[f"Cidade {i}"] = (random.random(), random.random())
+        # cria cidades chamadas de i
+        # random.random() sorteia uma float aleatória entre 0 e 1 para as coordenadas
 
     return cidades
 
@@ -70,6 +72,7 @@ def computa_mochila(individuo, objetos, ordem_dos_nomes):
     peso_total = 0
     
     for pegou_o_item_ou_nao, nome_do_item in zip(individuo, ordem_dos_nomes):
+    # associou 1 (pega) e 0 (não pega) de individuos com os correspondentes nomes dos itens
         if pegou_o_item_ou_nao == 1:
             valor_do_item = objetos[nome_do_item]["valor"]
             peso_do_item = objetos[nome_do_item]["peso"]
@@ -121,7 +124,8 @@ def gene_letra(letras):
       Retorna uma letra dentro das possíveis de serem sorteadas.
     """
     
-    letra = random.choice(letras)
+    letra = random.choice(letras) # sorteia uma letra aleatória dentre as disponíveis
+    
     return letra
 
 
@@ -148,19 +152,21 @@ def individuo_cb(n):
 
 
 def individuo_cnb(numero_genes, valor_max_caixa):
-    """Gera um indivíduo válido para o problemas das caixas não binárias
+    """Gera um indivíduo válido para o problemas das caixas não binárias.
     
     Args:
-      numero_genes: número de genes na lista que representa o indivíduo
-      valor_max_caixa: Valor máximo que a caixa pode assumir
+      numero_genes: número de genes na lista que representa o indivíduo.
+      valor_max_caixa: Valor máximo que a caixa pode assumir.
       
     Returns:
-      Uma lista que representa um individuo válido para o problema das CNB
+      Uma lista que representa um indivíduo válido para o problema das CNB.
     """
     individuo = []
-    for _ in range(numero_genes):
+    for _ in range(numero_genes): # _ permite iterar sem precisar criar outra variável,
+                                  # já que aqui não será usado 
         gene = gene_cnb(valor_max_caixa)
         individuo.append(gene)
+        
     return individuo
 
 
@@ -195,7 +201,8 @@ def individuo_cv(cidades):
       cada cidade apenas uma vez.
     """
     nomes = list(cidades.keys())
-    random.shuffle(nomes)
+    random.shuffle(nomes) # ordena a lista de nomes
+    
     return nomes
 
 
@@ -210,7 +217,8 @@ def individuo_senha_var(tamanhos_senha, letras):
       cadidado: lista com n letras, que pode variar de tamanho a cada rodada.
     """
     candidato = []
-    tam_senha = random.choice(tamanhos_senha)
+    tam_senha = random.choice(tamanhos_senha) # sorteia um tamanho possível de
+                                              # forma aleatória
     
     for _ in range(tam_senha):
         candidato.append(gene_letra(letras))
@@ -258,6 +266,7 @@ def populacao_cnb(tamanho_populacao, numero_genes, valor_max_caixa):
     for _ in range(tamanho_populacao):
         individuo = individuo_cnb(numero_genes, valor_max_caixa)
         populacao.append(individuo)
+        
     return populacao
 
 
@@ -275,17 +284,20 @@ def populacao_inicial_senha(tamanho, tamanho_senha, letras):
     populacao = []
     for n in range(tamanho):
         populacao.append(individuo_senha(tamanho_senha, letras))
+        
     return populacao
 
 
 def populacao_inicial_cv(tamanho, cidades):
     """Cria população inicial no problema do caixeiro viajante.
-    Args
+    
+    Args:
       tamanho:
         Tamanho da população.
       cidades:
         Dicionário onde as chaves são os nomes das cidades e os valores são as
         coordenadas das cidades.
+        
     Returns:
       Lista com todos os indivíduos da população no problema do caixeiro
       viajante.
@@ -293,6 +305,7 @@ def populacao_inicial_cv(tamanho, cidades):
     populacao = []
     for _ in range(tamanho):
         populacao.append(individuo_cv(cidades))
+        
     return populacao
 
 
@@ -333,6 +346,8 @@ def selecao_roleta_max(populacao, fitness):
       População dos indivíduos selecionados.
     """
     populacao_selecionada = random.choices(populacao, weights=fitness, k=len(populacao))
+    # escolhe indivíduos de forma que leva o fitness em consideração
+    
     return populacao_selecionada
 
 
@@ -348,7 +363,7 @@ def selecao_torneio_min(populacao, fitness, tamanho_torneio=3):
       tamanho_torneio: quantidade de invidiuos que batalham entre si.
       
     Returns:
-      Individuos selecionados. Lista com os individuos selecionados com mesmo
+      Indivíduos selecionados. Lista com os individuos selecionados com mesmo
       tamanho do argumento `populacao`.
     """
     selecionados = []
@@ -411,13 +426,15 @@ def cruzamento_ordenado(pai, mae):
     problemas onde a ordem dos genes é importante e não podemos alterar os genes
     em si. É um cruzamento que pode ser usado no problema do caixeiro viajante.
     Ver pág. 37 do livro do Wirsansky.
+    
     Args:
-      pai: uma lista representando um individuo
-      mae : uma lista representando um individuo
+      pai: uma lista representando um indivíduo.
+      mae : uma lista representando um indivíduo.
+      
     Returns:
       Duas listas, sendo que cada uma representa um filho dos pais que foram os
       argumentos. Estas listas mantém os genes originais dos pais, porém altera
-      a ordem deles
+      a ordem deles.
     """
     corte1 = random.randint(0, len(pai) - 2)
     corte2 = random.randint(corte1 + 1 , len(pai) - 1)
@@ -486,17 +503,18 @@ def mutacao_cb(individuo):
 
 
 def mutacao_cnb(individuo, valor_max_caixa):
-    """Realiza a mutação do indivíduo
+    """Realiza a mutação do indivíduo.
     
     Args:
-      individuo: indivíduo que deve sofrer a mutação
-      valor_max_caixa: valor máximo que a caixa pode assumir
+      individuo: indivíduo que deve sofrer a mutação.
+      valor_max_caixa: valor máximo que a caixa pode assumir.
       
     Returns:
-      Indivíduo que sofreu a mutação
+      Indivíduo que sofreu a mutação.
     """
     gene_a_ser_mutado = random.randint(0, len(individuo) - 1)
     individuo[gene_a_ser_mutado] = gene_cnb(valor_max_caixa)
+    
     return individuo
 
 
@@ -512,6 +530,7 @@ def mutacao_senha(individuo, letras):
     """
     gene = random.randint(0, len(individuo) - 1)
     individuo[gene] = gene_letra(letras)
+    
     return individuo
 
 
@@ -593,6 +612,7 @@ def funcao_objetivo_cnb(individuo):
       Um valor que representa o fitness do indivíduo.
     """
     fitness = sum(individuo)
+    
     return fitness
 
 
@@ -739,18 +759,19 @@ def funcao_objetivo_pop_cb(populacao):
 
 
 def funcao_objetivo_pop_cnb(populacao):
-    """Calcula o fitness da população completa
+    """Calcula o fitness da população completa.
     
     Args:
-      populacao: lista com todos os indivíduos da população
+      populacao: lista com todos os indivíduos da população.
       
     Returns:
-      Uma lista com o fitness de cada indivíduo em ordem
+      Uma lista com o fitness de cada indivíduo em ordem.
     """
     fitness_pop = []
     for individuo in populacao:
         fitness_ind = funcao_objetivo_cnb(individuo)
         fitness_pop.append(fitness_ind)
+        
     return fitness_pop
 
 
@@ -758,8 +779,8 @@ def funcao_objetivo_pop_senha(populacao, senha_verdadeira):
     """Computa a funcao objetivo de uma populaçao no problema da senha.
     
     Args:
-      populacao: lista com todos os individuos da população
-      senha_verdadeira: a senha que você está tentando descobrir
+      populacao: lista com todos os individuos da população.
+      senha_verdadeira: a senha que você está tentando descobrir.
       
     Returns:
       Lista contendo os valores da métrica de distância entre senhas.
@@ -774,12 +795,14 @@ def funcao_objetivo_pop_senha(populacao, senha_verdadeira):
 
 def funcao_objetivo_pop_cv(populacao, cidades):
     """Computa a funcao objetivo de uma população no problema do caixeiro viajante.
+    
     Args:
       populacao:
-        Lista com todos os inviduos da população
+        Lista com todos os inviduos da população.
       cidades:
         Dicionário onde as chaves são os nomes das cidades e os valores são as
         coordenadas das cidades.
+        
     Returns:
       Lista contendo a distância percorrida pelo caixeiro para todos os
       indivíduos da população.
