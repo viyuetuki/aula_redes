@@ -4,7 +4,7 @@
 
 # 📚 Disciplina de Redes Neurais e Algoritmos Genéticos
 
-<p style='text-align: justify'> Este repositório do GitHub é destinado aos experimentos realizados por mim, discente Vitória Yumi Uetuki Nicoleti 👩🏻‍💻, para a disciplina de Redes Neurais e Algoritmos Genéticos, ministrada pelo Professor Doutor Daniel Roberto Cassar (<a href="https://github.com/drcassar" >@drcassar</a>)) na [<a href="https://ilum.cnpem.br/">Ilum Escola de Ciência</a>.
+<p style='text-align: justify'> Este repositório do GitHub é destinado aos experimentos realizados por mim, discente Vitória Yumi Uetuki Nicoleti 👩🏻‍💻, para a disciplina de Redes Neurais e Algoritmos Genéticos, ministrada pelo Professor Doutor Daniel Roberto Cassar (<a href="https://github.com/drcassar" >@drcassar</a>)) na <a href="https://ilum.cnpem.br/">Ilum Escola de Ciência</a>.
 
 🤔💭 Mas quem sou eu, afinal?
 
