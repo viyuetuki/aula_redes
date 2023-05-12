@@ -63,5 +63,7 @@ Glossário:
 ## Inspiração
 
 <p style='text-align: justify'> Apenas para fins motivacionais, vou deixar aqui algumas imagens biológicas neuronais, que buscam expressar a complexidade e maravilhosidade desse sistema (tão lindo, aos meus olhos, pelo menos)!
+    
+<p align="justify"><img src="https://th.bing.com/th/id/OIP.zfwuW1C0mc5Py5bUkO3jhwHaFj?pid=ImgDet&rs=1" width="400" height="280" > </p>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00CED1&height=120&section=footer"/>
