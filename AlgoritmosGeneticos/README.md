@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00008B&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=4B0082&size=35&center=true&vCenter=true&width=1000&lines=Bem-vindo(a)+à+pasta+de+Algoritmos+Genéticos!;Só+para+lembrar;meu+nome+é+Vitória+Yumi+Uetuki+Nicoleti;E+serei+sua+glia+nessa+fasntástica+formação;de+novas+sinapses.;Fique+agora+com+AlgoritmosGeneticos+:%29+!;print(AlgoritmosGeneticos))](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=4B0082&size=35&center=true&vCenter=true&width=1000&lines=Bem-vindo(a)+à+pasta+de+Algoritmos+Genéticos!;Só+para+lembrar;meu+nome+é+Vitória+Yumi+Uetuki+Nicoleti;E+serei+sua+glia+nessa+fantástica+formação;de+novas+sinapses.;Fique+agora+com+AlgoritmosGeneticos+:%29+!;print(AlgoritmosGeneticos))](https://git.io/typing-svg)
 
 <p style='text-align: justify'> Bem-vindo(a), novamente, à pasta de Algoritmos Genéticos 🧬! 😄 
     
@@ -11,13 +11,13 @@ Vamos começar? 🤩 Prepare-se para programar...</p>
 
 # Experimentos de otimização e algoritmos genéticos 🧬
 
-<p style='text-align: justify'> Como já mencionado, nesta pasta, estão armazenados os arquivos dos experimentos de algoritmos genéticos, que se baseiam em otimização. As problemáticas foram desenvolvidas pelo Professor Doutor Daniel R. Cassar e o código, além de partes terem sido desenvolvidas em conjunto com ele durante as aulas, outras são de minha autoria, como completações, comentários, conclusões, descrições e experimentos do tipo GA (fique tranquilo(a) que isso será apresentado em breve!).</p>
+<p style='text-align: justify'> Como já mencionado, nesta pasta, estão armazenados os arquivos dos experimentos de algoritmos genéticos, que se baseiam em otimização. As problemáticas foram desenvolvidas pelo Professor Doutor Daniel R. Cassar e o código, além de partes terem sido desenvolvidas em conjunto com ele durante as aulas, outras são de minha autoria, como complementações, comentários, conclusões, descrições e experimentos do tipo GA (fique tranquilo(a) que isso será apresentado em breve!).</p>
 
 ## Conceitos e fundamentos 📜
 
 <p style='text-align: justify'> Assim como que, para se construir uma boa edificação, que não seja derrubada por qualquer ventania e outros fatores, é essencial que uma boa base e fundação seja feita, é imprescindível, quando tratamos de aprender algo novo, que uma base sólida de saberes seja construída por nós. Assim, para que nossas sinapses fiquem firmes e fortes, façam parte da nossa memória de longa duração e para que não as perdamos com certa facilidade, além de que possamos compreender tudo o que vem a seguir, precisamos reforçar bem os conceitos iniciais.
 
-Para isso, o que acha, então, de começarmos apredendo tópicos que vamos utilizar em nossos códigos? 
+Para isso, o que acha, então, de começarmos aprendendo tópicos que vamos utilizar em nossos códigos? 
 
 </p>
 
@@ -124,7 +124,9 @@ mutacao_tam_senha_var
 funcao_objetivo_senha_var
 funcao_objetivo_pop_senha_var
 ```
-    
+
+<p style='text-align: justify'> ⏳🛠⚙ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20GA.01%20-%20senha%20de%20tamanho%20variavel.ipynb">experimento GA.05 - palindromos</a> - Este arquivo contempla o desenvolver da resolução do experimento dos palíndromos (em construção).</p>
+
 ---------------------
 <b> Arquivos .py</b>:
 
