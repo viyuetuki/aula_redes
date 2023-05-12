@@ -18,6 +18,12 @@ Vamos começar? 🤩 Prepare-se para programar...</p>
 <p style='text-align: justify'> Assim como que, para se construir uma boa edificação, que não seja derrubada por qualquer ventania e outros fatores, é essencial que uma boa base e fundação seja feita, é imprescindível, quando tratamos de aprender algo novo, que uma base sólida de saberes seja construída por nós. Assim, para que nossas sinapses fiquem firmes e fortes, façam parte da nossa memória de longa duração e para que não as perdamos com certa facilidade, além de que possamos compreender tudo o que vem a seguir, precisamos reforçar bem os conceitos iniciais.
 
 Para isso, o que acha, então, de começarmos aprendendo tópicos que vamos utilizar em nossos códigos? 
+    
+Como a matéria ainda está sendo dada, esta área está em construção 🛠 e está sendo modificada aos poucos, mas fique com um gostinho do que encontrará por aqui em breve...
+
+Glossário:
+
+- Gene, indivíduo, população, fitness, seleção (roleta máxima, torneio mínimo), crossing-over/cruzamento (ponto simples, ordenado), mutação (flip bit).
 
 </p>
 
@@ -125,7 +131,7 @@ funcao_objetivo_senha_var
 funcao_objetivo_pop_senha_var
 ```
 
-<p style='text-align: justify'> ⏳🛠⚙ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20GA.01%20-%20senha%20de%20tamanho%20variavel.ipynb">experimento GA.05 - palindromos</a> - Este arquivo contempla o desenvolver da resolução do experimento dos palíndromos (em construção).</p>
+<p style='text-align: justify'> ⏳🛠⚙ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20GA.05%20-%20palindromos.ipynb">experimento GA.05 - palindromos</a> - Este arquivo contempla o desenvolver da resolução do experimento dos palíndromos (em construção).</p>
 
 ---------------------
 <b> Arquivos .py</b>:

@@ -19,6 +19,14 @@ Vamos começar? 🤩 Prepare-se para programar...</p>
 Para isso, o que acha, então, de começarmos aprendendo tópicos que vamos utilizar em nossos códigos? Afinal, conceitos biológicos neuronais já são muito entusiasmantes, imagine, agora, saber associá-los a conceitos de redes neurais artificiais de extrema importância...
     
 (Lembre-se sempre: se precisar, volte e estude de novo, sem pressa! Além dela ser inimiga da perfeição, é muito importante que você estabeleça uma base muito bem consolidada para conseguir compreender com o melhor aproveitamento o que vamos realizar nos códigos a seguir.)
+    
+Como a matéria ainda está sendo dada, esta área está em construção 🛠 e está sendo modificada aos poucos, mas fique com um gostinho do que encontrará por aqui em breve...
+
+Glossário:
+
+- Conceitos neuronais (biológicos): neurônio, estrutura, sinapse, protenciais (de ação, de repouso);
+
+- Conceitos neurais artificiais: neurônio, camada oculta, camada input, camada output, bias (viés), backpropagation, fowardpass, outra forma de representação de expressões matemáticas, gradiente local.
 
 </p>
 
@@ -29,14 +37,14 @@ Para isso, o que acha, então, de começarmos aprendendo tópicos que vamos util
 ---------------------
 <b> Experimentos</b>:
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb">experimento R.01 - derivadas.ipynb</a> - .</p>
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/RedesNeurais/experimento%20R.01%20-%20derivadas.ipynb">experimento R.01 - derivadas.ipynb</a> - Este arquivo contempla um notebook revisando derivada.</p>
 
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb">experimento R.02 - classes.ipynb</a> - .</p>
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/RedesNeurais/experimento%20R.02%20-%20classes.ipynb">experimento R.02 - classes.ipynb</a> - Este arquivo contempla o notebook em que foi aprendido sobre classes.</p>
   
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb">experimento R.03 - construindo um grafo automaticamente.ipynb</a> - .</p>  
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/RedesNeurais/experimento%20R.03%20-%20construindo%20um%20grafo%20automaticamente.ipynb">experimento R.03 - construindo um grafo automaticamente.ipynb</a> - Este arquivo contempla o experimento em que foi possível plotar grafos automaticamente.</p>  
 
-<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb">experimento R.04 - computando gradientes locais.ipynb</a> - .</p>
+<p style='text-align: justify'> ✅ <a href="https://github.com/viyuetuki/aula_redes/blob/main/RedesNeurais/experimento%20R.04%20-%20computando%20gradientes%20locais.ipynb">experimento R.04 - computando gradientes locais.ipynb</a> - Este arquivo contempla o experimento em que calculou-se os gradientes locais (foram revistas derivadas e regra da cadeia), a fim se aplicar o algoritmo background.</p>
 
 ---------------------
 <b> Arquivos .py</b>:
